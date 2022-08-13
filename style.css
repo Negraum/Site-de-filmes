@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+
+.cabeçalho{
+  /* Alinhando */
+  display: flex;
+  justify-content: center;
+
+  /* colocando os Espaçamentos*/
+  padding: 0.8rem;
+  border-bottom: 3px solid black;
+
+}
+
+.cabeçalho-titulo{
+    /* Ajustando a fonte*/
+    font-family: 'Rubik Distressed', cursive;
+    color: rgb(59, 47, 47);
+    width: 100%;
+}
+
+.titulo{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.filmes{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5rem;
+}
+
+.poster{
+  border: 3px solid black;
+}
+
+.rodape{
+  margin-top: 20%;
+  padding: 0.5rem;
+  border-top: 3px solid black;
+}
+
+.titulo-rodape{
+  font-family: 'Rubik Distressed', cursive;
+  color: rgb(59, 47, 47);
+  width: 100%;
+}
+
+.titulo-2{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(228, 212, 183);
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  border: 1px solid rgb(61, 58, 53);
+}
