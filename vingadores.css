@@ -62,3 +62,16 @@
   margin: 1rem;
   padding: 0.6rem;
 }
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(183, 186, 228);
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  border: 1px solid rgb(61, 58, 53);
+}
