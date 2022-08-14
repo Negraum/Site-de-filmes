@@ -1,14 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap");
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: rgb(67, 71, 95);
+}
+
+.cabeçalho{
+    display: flex;
+    justify-content: center;
+} 
+
+.titulo{
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  font-family: 'Silkscreen', cursive;
 }
 
 .conteudo-principal{
-    display: flex;
-} 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 
 .img{
-  width: 30rem;
-  height: 42rem;
+  width: 100%;
+}
+
+.informaçoes{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+.tabela{
+  width: 50rem; 
+  height: 5rem;
+}
+
+.texto-tabela{
+  font-family: "Sarala", sans-serif;
+  font-size: 18px;
+  padding-left: 2rem;
+}
+
+.titulo-2{
+  display: flex;
+  justify-content: center;
+  font-family: "Sarala", sans-serif;
+}
+
+.texto{
+  font-family: "Sarala", sans-serif;
+  border: 10px solid transparent;
+  font-size: 20px;
+  border: 5px dotted black;
+  margin: 1rem;
+  padding: 0.6rem;
 }
