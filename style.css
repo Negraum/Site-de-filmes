@@ -10,18 +10,15 @@
 }
 
 .cabeçalho{
-  /* Alinhando */
   display: flex;
   justify-content: center;
 
-  /* colocando os Espaçamentos*/
   padding: 0.8rem;
   border-bottom: 3px solid black;
 
 }
 
 .cabeçalho-titulo{
-  /* Ajustando a fonte*/
   font-family: 'Rubik Distressed', cursive;
   color: rgb(59, 47, 47);
   width: 100%;

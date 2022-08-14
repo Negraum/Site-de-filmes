@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap");
 
 *{
@@ -16,7 +15,7 @@
 .titulo{
   font-size: 30px;
   color: rgb(0, 0, 0);
-  font-family: 'Silkscreen', cursive;
+  font-family: "Sarala", sans-serif;
 }
 
 .conteudo-principal{
